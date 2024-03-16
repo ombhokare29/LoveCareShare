@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<main>
+  <div class="container">
+    <div class="quote">
+      <h1 class="fixtext">We <span class="auto-type"></span></h1>
+      <p class="moto">
+        Spreading love, fostering care, and inspiring sharing for a brighter world.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed(".auto-type",{
+      strings : ["Love...", "Care...", "Share..."],
+      typeSpeed : 150,
+      backSpeed : 150,
+      loop: true
+    });
+  </script>
+</main>
+{% endblock body %}
+

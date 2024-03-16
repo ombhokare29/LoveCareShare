@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar-nav li {
+    padding: 0 .5vw;
+    box-sizing: border-box;
+}
+
+#nav-link {
+    color: rgb(249, 201, 106);
+    font-size: 1.1em;
+
+}
+
+.navbar.navbar-expand-lg {
+    /* background-color: transparent; */
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.collapse.navbar-collapse {
+    margin-left: 20vw;
+}
+
+.ngoname {
+    margin-left: 5vw;
+}
+
+.ngoheaderlogo a img {
+    /* width: 5vw; */
+    height: 10vh;
+    margin-left: 2vw;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand span {
+
+    font: 2em sans-serif;
+}
+
+#ngonamesingle {
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item:hover{
+
+    background-color: rgb(249, 201, 106);
+    /* border: black solid; */
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+}
+
+
+#nav-link:hover {
+    color: white;
+}
+
+.navbar-brand:hover{
+    background-color: rgb(250, 248, 246);
+    box-shadow: 1px 5px 30px rgb(222, 221, 221);
+    transition: all .2s ease-in-out;
+    border-radius: 140px;
+    padding: 1px;
+}
+footer {
+    background-color: #f0f0f0;
+    
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* body{
+
+    background-image: url("/static/img/home/bg.jpg");
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+} */
+.quote{
+
+    display: grid;
+    justify-content: left;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    
+    
+    
+
+}
+.fixtext{
+    color: rgb(236, 46, 36);
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.auto-type{
+    color: aqua;
+}
+
+.moto{
+    color: gray;
+    font-size: 1.5em;
+}
